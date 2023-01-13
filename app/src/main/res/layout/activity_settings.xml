@@ -69,6 +69,7 @@
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         app:cardCornerRadius="8dp"
+        android:onClick="exit2_btnclick"
         app:cardElevation="8dp"
         app:cardUseCompatPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
