@@ -261,7 +261,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.936"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@drawable/aboutdev" />
+                app:srcCompat="@drawable/about5" />
 
 
         </GridLayout>
