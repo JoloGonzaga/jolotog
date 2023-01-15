@@ -1,6 +1,7 @@
 package com.vyw.tflite
 
 import android.content.Intent
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
 import android.view.Window
@@ -19,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide();
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
     }
 
     fun btnClick(view: View) {
@@ -35,4 +38,6 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, settings_activity::class.java)
         startActivity(intent)
     }
+
+
 }

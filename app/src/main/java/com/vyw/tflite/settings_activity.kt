@@ -1,6 +1,7 @@
 package com.vyw.tflite
 
 import android.content.Intent
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -12,10 +13,17 @@ class settings_activity : AppCompatActivity() {
         setContentView(R.layout.activity_settings)
 
     }
+
+
+
+
         fun exit2_btnclick(view: View) {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+
         }
 
 
-}
+
+    }
+

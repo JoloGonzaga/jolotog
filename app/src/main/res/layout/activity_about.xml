@@ -238,6 +238,7 @@
                         android:src="@drawable/number_six" />
 
                     <TextView
+
                         android:layout_width="260dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="15dp"
@@ -250,19 +251,20 @@
 
             </androidx.cardview.widget.CardView>
 
+            <ImageView
+
+                android:id="@+id/imageView"
+                android:layout_width="382dp"
+                android:layout_height="350dp"
+                android:fillViewport="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.936"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/aboutdev" />
+
+
         </GridLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_below="@+id/card"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/rectangle"
-            android:text="About the Developers"
-            android:textColor="#FFFFFFFF"
-            android:gravity="center">
-
-        </TextView>
 
 
     </RelativeLayout>
